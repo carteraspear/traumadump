@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dfe3ff;
+}
+
+.journal-container {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  max-width: 1200px;
+  background-color: #090a11;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.entries-list {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #c4b3ec;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.entries-list h2 {
+  margin-bottom: 20px;
+  color: #e2e2e2#;
+}
+
+.entries-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.entries-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entry-text {
+  flex: 1;
+  margin-right: 10px;
+  color: #e2e2e2;
+}
+
+.entry-actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.entry-actions button:hover {
+  background-color: ##28a745;
+}
+
+.entry-editor {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-editor h2 {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.entry-editor textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.entry-editor button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.entry-editor button:hover {
+  background-color: #218838;
+}

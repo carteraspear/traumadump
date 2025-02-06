@@ -1,2 +1,1 @@
-# traumadump
- 
+basic journal app
