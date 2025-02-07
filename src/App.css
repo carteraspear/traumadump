@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #dfe3ff;
+  background-color: #c4ffe3;
 }
 
 .journal-container {
@@ -12,7 +12,7 @@
   height: 80%;
   width: 80%;
   max-width: 1200px;
-  background-color: #090a11;
+  background-color: #002b01;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -21,14 +21,14 @@
 .entries-list {
   flex: 1;
   padding: 20px;
-  border-right: 1px solid #c4b3ec;
+  border-right: 1px solid #9cff93;
   max-height: 80vh;
   overflow-y: auto;
 }
 
 .entries-list h2 {
   margin-bottom: 20px;
-  color: #e2e2e2#;
+  color: #e2e2e2;
 }
 
 .entries-list ul {
@@ -61,7 +61,7 @@
 }
 
 .entry-actions button:hover {
-  background-color: ##28a745;
+  background-color: #28a745;
 }
 
 .entry-editor {
@@ -79,7 +79,7 @@
 .entry-editor textarea {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 4px;
   font-size: 16px;
   resize: none;

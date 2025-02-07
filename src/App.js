@@ -50,7 +50,6 @@ function App() {
       <div className="journal-container">
         {/* Top Bar */}
         <div className="top-bar">
-          <h1>{currentEntry.id ? `Editing "${currentEntry.title}"` : 'New Journal Entry'}</h1>
         </div>
 
         {/* Left Side: List of Previous Entries */}
